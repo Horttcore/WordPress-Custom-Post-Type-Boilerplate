@@ -29,3 +29,7 @@ A WordPress Custom Post Type Boilerplate
 - `npm run production` for published code
 
 ## Changelog
+
+### 0.1 - 2020-01-09
+
+- Initial release

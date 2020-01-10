@@ -1,6 +1,6 @@
 {
-  "name": "ralfhortt/wordpress-client-plugin-boilerplate",
-  "description": "A WordPress Client Plugin Boilerplate",
+  "name": "ralfhortt/wordpress-custom-post-type-boilerplate",
+  "description": "A WordPress Custom Post Type Boilerplate",
   "type": "wp-plugin",
   "authors": [
     {
