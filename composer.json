@@ -1,0 +1,25 @@
+{
+  "name": "ralfhortt/wordpress-client-plugin-boilerplate",
+  "description": "A WordPress Client Plugin Boilerplate",
+  "type": "wp-plugin",
+  "authors": [
+    {
+      "name": "Ralf Hortt",
+      "email": "me@horttcore.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RalfHortt\\WordPressClientPluginBoilerplate\\": "src/"
+    },
+    "files": [
+      "inc/functions.php"
+    ]
+  },
+  "require": {
+    "ralfhortt/wp-plugin": "^2",
+    "horttcore/wp-assets": "^1",
+    "ralfhortt/translator-service": "^1.0",
+    "ralfhortt/service-contracts": "^1.0"
+  }
+}

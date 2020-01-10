@@ -1,0 +1,4 @@
+<?php
+/**
+ * Custom template tags
+ */
