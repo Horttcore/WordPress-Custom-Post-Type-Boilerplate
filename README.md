@@ -1,18 +1,18 @@
-# WordPress Client Plugin Boilerplate
+# WordPress Custom Post Type Boilerplate
 
-A WordPress Client Plugin Boilerplate
+A WordPress Custom Post Type Boilerplate
 
 ## Installation
 
-`composer create-project ralfhortt/wordpress-client-plugin-boilerplate my-plugin`
+`composer create-project ralfhortt/wordpress-custom-post-type-boilerplate my-post-type`
 
 ## Setup
 
 - `npm install` or `yarn`
 - Edit the plugin header in `plugin.php`
-- Replace namespace `RalfHortt/WordPressClientPluginBoilerplate` with your own
+- Replace namespace `RalfHortt/WordPressCustomPostTypeBoilerplate` with your own
 - Update autoloader namespace in `composer.json`
-- Replace textdomain `wordpress-client-plugin-boilerplate` with your own
+- Replace textdomain `wordpress-custom-post-type-boilerplate` with your own
 
 ## Usage
 
@@ -29,11 +29,3 @@ A WordPress Client Plugin Boilerplate
 - `npm run production` for published code
 
 ## Changelog
-
-### 2.0 - 2020-01-09
-
-* Update dependencies
-
-### 1.0 - 2019-10-17
-
-* Initial release

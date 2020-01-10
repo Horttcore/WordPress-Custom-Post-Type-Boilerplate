@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "RalfHortt\\WordPressClientPluginBoilerplate\\": "src/"
+      "RalfHortt\\WordPressCustomPostTypeBoilerplate\\": "src/"
     },
     "files": [
       "inc/functions.php"
@@ -20,6 +20,8 @@
     "ralfhortt/wp-plugin": "^2",
     "horttcore/wp-assets": "^1",
     "ralfhortt/translator-service": "^1.0",
-    "ralfhortt/service-contracts": "^1.0"
+    "ralfhortt/service-contracts": "^1.0",
+    "horttcore/wp-custom-post-type": "^1.0",
+    "horttcore/wp-custom-taxonomy": "^1.0"
   }
 }
