@@ -23,5 +23,9 @@
     "ralfhortt/service-contracts": "^1.0",
     "horttcore/wp-custom-post-type": "^1.0",
     "horttcore/wp-custom-taxonomy": "^1.0"
+  },
+  "scripts": {
+    "post-create-project-cmd": "composer run-script replace-textdomain",
+    "replace-textdomain": "DIR=$(basename $PWD); LC_ALL=C find ./ -not \\( -path \".//vendor/*\" -o -path \".//node_modules/*\" -o -path \".//.git/*\" \\) -type f \\( -iname '*.js' -o -iname '*.php' -o -iname '*.css' \\) -exec sed -i '' -e \"s/wordpress-custom-post-type-boilerplate/${DIR}/g\" {} \\;",
   }
 }
