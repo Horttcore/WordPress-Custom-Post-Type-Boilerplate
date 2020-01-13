@@ -28,6 +28,12 @@ A WordPress Custom Post Type Boilerplate
 - Add custom blocks in `assets/js/blocks`
 - `npm run production` for published code
 
+## ToDo
+
+- Setup script
+- Listing blocks
+- View files
+
 ## Changelog
 
 ### 0.1 - 2020-01-09
